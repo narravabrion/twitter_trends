@@ -1,0 +1,24 @@
+{
+  "name": "twitter_trends",
+  "version": "1.0.0",
+  "description": "An application that fetches trends in real time using the twitter API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd frontend && npm start\" \"cd backend && npm run dev\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narravabrion/twitter_trends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narravabrion/twitter_trends/issues"
+  },
+  "homepage": "https://github.com/narravabrion/twitter_trends#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
