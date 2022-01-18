@@ -1,15 +1,8 @@
 import React from "react"
 import TwitterIcon from "@mui/icons-material/Twitter"
 import GitHubIcon from "@mui/icons-material/GitHub"
-import MenuIcon from "@mui/icons-material/Menu"
-import {
-	Typography,
-	AppBar,
-	IconButton,
-	Button,
-	Toolbar,
-	Box,
-} from "@mui/material"
+
+import { Typography, AppBar, IconButton, Toolbar, Box } from "@mui/material"
 import useNavStyles from "../styles/navStyles.comps"
 
 const Navbar = () => {
