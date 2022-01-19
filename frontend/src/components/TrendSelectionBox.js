@@ -29,7 +29,7 @@ const TrendSelectionBox = () => {
 			navigator.geolocation.getCurrentPosition(
 				(position) => {
 					axios
-						.get("http://localhost:4444/api/current-loaction-trends", {
+						.get(" https://twitter-trends-backend-00.herokuapp.com/api/current-loaction-trends", {
 							params: {
 								lat: position.coords.latitude,
 								long: position.coords.longitude,

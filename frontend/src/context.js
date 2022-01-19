@@ -13,7 +13,7 @@ const AppProvider = ({ children }) => {
 		// as a parameter and makes a get request to get all the current trends
 		// associated with that loaction
 		axios
-			.get("http://localhost:4444/api/trends", {
+			.get("https://twitter-trends-backend-00.herokuapp.com/api/trends", {
 				params: {
 					woeid,
 				},
